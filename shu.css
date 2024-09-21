@@ -1,0 +1,107 @@
+
+body{
+    background-color: lightcoral;
+}
+h1{
+    font-family: 'Great Vibes';
+    color: black;
+    background-color: red;
+    font-size: 50px;
+}
+@keyframes colorshift{
+    from {color: rgb(222, 0, 0);}
+    to {color: rgba(161, 88, 171, 0.792);}
+    
+}
+h2{
+    font-family: 'Great vibes';
+    font-size: 35px;
+}
+#test{
+    color: black;
+    font-size: 24px;
+    animation-name: colorshift;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    font-family: 'Sacramento', cursive;
+}
+#billed{
+    
+    box-shadow: 10px 5px 5px 9px rgba(0, 0, 0, 0.75);
+    
+}
+#ShuB{
+    box-shadow: 5px 5px 5px 9px rgba(0, 0, 0, 0.75);
+    max-width: 25%;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+}
+#knap{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.75);
+    padding: 5px 10px;
+    font-family: 'Sacramento', cursive;
+    font-size: 20px;
+}
+.newButton{
+    padding: 5px 10px;
+    font-family: 'Sacramento', cursive;
+    font-size: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.75);
+    background-color: plum;
+    color: red;
+}
+#B1{
+    font-family: 'Sacramento', cursive;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
+    background-color: plum;
+    color: red;
+}
+#L1{
+    font-family: 'Sacramento', cursive;
+    font-size: 20px;
+
+    background-color: plum;
+    color: red;
+}
+h2{
+    color: rgb(15, 13, 14);
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+}
+#rød{
+    font-family: 'Sacramento', cursive;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
+    background-color: plum;
+    color: red;   
+    border-color: black;
+}
+#Kaminari {
+    box-shadow: 5px 5px 5px 9px rgba(0, 0, 0, 0.75);
+    max-width: 33%;
+    right: 32%;
+    position: absolute;
+
+    /* Pop-up animation */
+    animation: pop-up 0.5s ease-out;
+    transform-origin: center;
+}
+
+/* Pop-up animation definition */
+@keyframes pop-up {
+    0% {
+        transform: scale(0);  /* Starter med at være usynligt */
+        opacity: 0;           /* Ingen gennemsigtighed */
+    }
+    80% {
+        transform: scale(1.1); /* Gør billedet lidt større end normalt */
+        opacity: 1;            /* Gør billedet synligt */
+    }
+    100% {
+        transform: scale(1);  /* Kommer tilbage til sin normale størrelse */
+        opacity: 1;           /* Forbliver synligt */
+    }
+   
+}
