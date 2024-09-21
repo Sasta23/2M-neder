@@ -1,0 +1,64 @@
+<html>  
+    
+    <head>  
+        <title> Mite</title>
+    <link href="shu.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>  
+        <h1> <i class="fa-solid fa-heart"></i>
+            To my beloved Shu
+
+            <br>
+            <h2> Happy 2 month!!   </h2>
+            <br>
+            <div>
+                <img id="billed" src="heart-3097905_1280.jpg"
+                alt="I love you"
+                width="50%"
+                height="200px">
+            </div>
+
+            <div>  
+                <img id="ShuB" src="SHU2.jpg">
+            </div>
+            
+            <br>
+
+          
+            <button id="knap" onclick="doSomething()" style="background-color: plum; color:red">click me!</button>
+        
+         <p id="test"></p>
+
+            <script>
+               function doSomething(){
+                    document.getElementById("test").innerHTML = "I love you"
+                    if (!document.getElementById("newButton")) {
+                        // Opret en ny knap
+                        var newButton = document.createElement("button");
+                        newButton.id = "newButton";
+                        newButton.innerHTML = "And me!";
+                        newButton.className = "newButton";
+                        
+
+                        // Tilføj knappen til body
+                        document.body.appendChild(newButton);
+
+                        newButton.addEventListener("click", function(){
+                            window.location.href= "Shu2.html"
+                        }
+                    )
+                    }
+                    
+                
+             }
+             </script>
+     
+
+
+        </h1>
+
+    </body>
+</html>
